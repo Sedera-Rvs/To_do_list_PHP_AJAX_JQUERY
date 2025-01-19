@@ -16,11 +16,10 @@ if(isset($_POST['signup'])){
 
             header("location:index.php");
         }else{
-            ?>
-                <p style="color:red; text-align:center; ">Votre mot de passe ou nom est incorrecte</p>
+            ?>  
+                <div style="padding: 10px;text-align:center;background-color: #ff4444;" class="alert">Invalid username or password</div>
             <?php
         }
-        
     }else{
         echo "Veuillez bien remplir les champs.";
     }
@@ -49,3 +48,4 @@ if(isset($_POST['signup'])){
     </div>
 </body>
 </html>
+

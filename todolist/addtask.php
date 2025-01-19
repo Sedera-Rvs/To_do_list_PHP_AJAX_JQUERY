@@ -40,3 +40,4 @@ if(isset($_POST['add'])){
     <script src="js/load_list.js"></script>
 </body>
 </html>
+<script src="js/slide.js"></script>
