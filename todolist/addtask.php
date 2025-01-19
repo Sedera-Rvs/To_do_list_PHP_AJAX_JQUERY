@@ -41,3 +41,4 @@ if(isset($_POST['add'])){
 </body>
 </html>
 <script src="js/slide.js"></script>
+<script src="js/delete_task.js"></script>

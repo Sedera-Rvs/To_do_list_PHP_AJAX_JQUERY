@@ -27,5 +27,6 @@ $ip = $_SESSION['id'];
     </div>
 
     <script src="js/load_list.js"></script>
+    <script src="js/delete_task.js"></script>
 </body>
 </html>

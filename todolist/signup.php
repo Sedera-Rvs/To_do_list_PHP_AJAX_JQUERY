@@ -17,7 +17,8 @@ if(isset($_POST['signup'])){
             header("location:index.php");
         }else{
             ?>  
-                <div style="padding: 10px;text-align:center;background-color: #ff4444;" class="alert">Invalid username or password</div>
+                <div style="padding: 10px;text-align:center;background-color: #ff4444;" 
+                    class="alert">Invalid username or password</div>
             <?php
         }
     }else{
